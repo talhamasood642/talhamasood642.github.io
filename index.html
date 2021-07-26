@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+        <h1>Area of Education And Profession</h1>
+        <form action="">
+          
+          <label> Name: <input type="text" id="name" /> </label>
+          <br /><br />
+  
+          
+          <label> Address: <input type="number" id="address" /> </label>
+          <br /><br />
+  
+          
+          Education:
+          <select name="education" id="education">
+            <option></option>
+            <option value="matic">Matric</option>
+            <option value="inter">First Year</option>
+            <option value="graduation">Second Year</option>
+            <option value="masters">B.com</option>
+          </select>
+          <br />  <br />
+  
+         
+  
+          Profession:
+          <select name="profession" id="profession">
+            <option></option>
+            <option value="sports">sports</option>
+            <option value="cooked">cooked</option>
+            <option value="driver">driver</option>
+            <option value="teacher">teacher</option>
+          </select>
+          <br /><br />
+  
+        
+          Gender: <label>
+            <input type="radio" name="gender" id="gender" value="male" checked /> Male
+          </label>
+          <label>
+            <input type="radio" name="gender" id="gender" value="female" /> Female
+          </label>
+          <br /><br />
+          <input
+            style="margin-left: 90%"
+            type="submit"
+            onclick="get()"
+            value="submit"
+          />
+        </form>
+    <script src="./app.js"></script>
+</body>
+</html>
