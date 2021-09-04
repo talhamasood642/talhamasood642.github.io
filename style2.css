@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+}
+
+
+
+#setting{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 10%;
+    height: 620px;
+    width: 1000px;
+   
+}
+
+.center{
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    
+}
+#blue{
+    margin-top: 55px;
+    margin-left: 25%;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    height: 30px;
+    width: 90px;
+}
+
+.border{
+    border: none;
+    border-bottom: 1px solid;
+    width: 70%;
+
+}
+
+#top{
+    margin-top: 55px;
+    /* margin-bottom: 10px; */
+    
+}
+
+#setting h3{
+    font-size: 2em;
+}
+
+#setting h4{
+    font-size: 20px;
+}

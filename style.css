@@ -1,0 +1,70 @@
+body{
+    
+    height: 100%; 
+    /* margin: 0%;
+    padding: 0%; */
+}
+
+#setting{
+     
+    margin-left: 68px;
+    margin-top: 30px;
+    height: 600px;
+    width: 1100px;
+}
+
+
+.bold{
+    font-size: bold;
+}
+
+.margin{
+    margin: 40px;
+}
+
+
+.center{
+    margin-top: 5px;
+    margin-left: 80px;
+
+}
+
+.center input[type="text"]{
+    border: none;
+    border-bottom: 1px solid;
+    width: 60%;
+    
+}
+
+.blue{
+    margin-left: 4px;
+    margin-top: 45px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    width: 80px;
+    height: 30px;
+    
+}
+.margin{
+    display: inline-block;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+#setting h3{
+    font-size: 2em;
+}
+#setting h4{
+    font-size: 20px;
+}
+
+.blue :hover{
+    background-color: yellowgreen;
+
+}
+#margin{
+    margin-top: 30px;
+}
