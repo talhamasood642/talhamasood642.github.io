@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Team Create</title>
+    <link rel="stylesheet" href="teamcreate.css">
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+
+   
+   <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+   <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-storage.js"></script>
+   
+   <script>
+     // Your web app's Firebase configuration
+     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+     const firebaseConfig = {
+    apiKey: "AIzaSyDZz7FiQ-VYglchOBhtqI9N_gKFcF1UobI",
+    authDomain: "saylanin-project.firebaseapp.com",
+    projectId: "saylanin-project",
+    storageBucket: "saylanin-project.appspot.com",
+    messagingSenderId: "598030955753",
+    appId: "1:598030955753:web:ca2dd19259b071684cec78",
+    measurementId: "G-5YJN2XKNGH"
+  };
+     // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+     firebase.analytics();
+   </script>
+
+</head>
+<body>
+    <fieldset id="setting">
+    <div class="center">
+        <h1>Create new Team</h1>
+
+        <input type="text" id="text" placeholder="Team Name"><br>
+
+        <input type="text" class="text" id="memberemail" placeholder="Members (type Email) "><br>
+
+        <select name="userRole" id="select">
+            <option id="team" value="Lead">Lead</option>
+            <option id="team" value="Developer">Developer</option>
+            <option id="team" value="Maintainance Team">Maintainance Team</option>
+            <option id="team" value="Architect">Architect</option>
+        </select><br>   
+
+
+        <button class="button" onclick="createTeam()" >Create</button>
+
+        <button type="submit" id="button" ><a href="teamdashboard.html">Cancel</a></button><br>
+    
+    </fieldset>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

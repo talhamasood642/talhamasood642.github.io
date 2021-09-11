@@ -1,0 +1,63 @@
+#setting{
+    height: 600px;
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+body{
+    font-family: sans-serif ;
+}
+
+.center h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+ .center input[type="text"]{
+    margin-left: 18%;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    width: 70%;
+    font-size: larger;
+    
+}
+
+    .button{
+     margin-left: 40%;
+    margin-top: 80px;
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+
+}
+#button{
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    color: white;
+    background-color: red;
+    margin: 20px;
+    border-radius: 20px;
+} 
+
+#select{
+    margin-left: 18%;
+    margin-top: 60px;
+    height: 30px;
+    width: 70.5%;
+    font-size: larger;
+}
+
+
+.text{
+    margin-top: 50px;
+}
+
+#button a{
+    text-decoration: none;
+    color: white; 
+}

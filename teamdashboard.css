@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+}
+
+.setting{
+    height: 900px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+#center{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.center{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 25px;
+}
+.inline{
+    display: inline-block;
+}
+
+#button{
+    float: right;
+    margin-right: 10%;
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    background-color: blue;
+    color: white;
+}
+#button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#button a{
+    font-size: 20px ;
+}
