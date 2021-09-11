@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./teamdashboard.css">
+    <title>Team Dashboard</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+
+   
+   <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+   <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-storage.js"></script>
+   
+   <script>
+     // Your web app's Firebase configuration
+     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+     const firebaseConfig = {
+    apiKey: "AIzaSyDZz7FiQ-VYglchOBhtqI9N_gKFcF1UobI",
+    authDomain: "saylanin-project.firebaseapp.com",
+    projectId: "saylanin-project",
+    storageBucket: "saylanin-project.appspot.com",
+    messagingSenderId: "598030955753",
+    appId: "1:598030955753:web:ca2dd19259b071684cec78",
+    measurementId: "G-5YJN2XKNGH"
+  };
+     // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+     firebase.analytics();
+   </script>
+
+</head>
+<body>
+    <fieldset class="setting">
+        <legend><h2>Teams</h2></legend>
+        <p id="center">Team You Own</p>
+     <fieldset class="center">
+         <p>Developers</p>
+         <h4 class="inline">Members:</h4> <p class="inline" id="margin"></p>
+     </fieldset>   
+     
+     <fieldset class="center">
+         <p>Maintenace Team</p>
+         <h4 class="inline">Members:</h4> <p class="inline" id="margin"></p>
+     </fieldset>
+
+    <p id="center">Team You're Part Of</p>
+    
+    <fieldset class="center">
+        <p>Leads</p>
+        <h4 class="inline">Members:</h4> <p class="inline" id="margin"></p>
+    </fieldset>
+    <fieldset class="center">
+        <p>Architects</p>
+       <h4 class="inline">Members:</h4> <p class="inline" id="margin"></p>
+    </fieldset>
+    <button type="submit" id="button"><a href="teamcreate.html">+</a></button>
+    </fieldset>
+
+    <script src="index.js"></script>
+</body>
+</html>
