@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    #baloon{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        background-color: coral;
+    }
+
+    #baloon div{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: 15px;
+        /* margin-top: 10px;
+        margin-left: 5px; */
+        width: 200px;
+        height: 90px;
+        border: white 1px solid;
+        border-radius: 50%;
+        background-color: white;
+        margin: 8px;
+    }
+        #secondline div{
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            height: 90px;
+            margin: 8px;
+            background-color: white;
+            flex-flow: 15px;
+        }
+        
+   
+
+  
+</style>
+<body>
+  <div id="baloon">
+
+    <div id="green" onmouseover="green()" style="background-color: green;"></div>
+    <div style="background-color: red;"></div>
+    <div style="background-color: orange;"></div>
+    <div style="background-color: red;"></div>
+    <div id="green" onmouseover="green()" style="background-color: green;"></div>
+    <div style="background-color: yellow;"></div>
+    <div style="background-color: purple;"></div>
+   
+ </div>
+
+
+
+
+
+
+<script>
+
+
+ document.getElementById("green").addEventListener("mouseover", function green(){
+    document.getElementById("green").style="background: none; margin: 75px 0px 0px 60px; font-size 25px";
+ })
+
+    document.getElementById("green").addEventListener("mouseover", function green(){
+        document.getElementById("green").innerHTML= "PopUp"
+
+    })
+
+</script>
+</body>
+</html>
