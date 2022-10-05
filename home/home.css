@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.back-container{
+  margin-left: 20px;
+}
+
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+
+.team{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#281c3e,#0f051d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+
+.team-content{
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.team-content img{
+  width: 90%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+};
+
+.team .center h1{
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+
+}
+
+.box{
+  padding: 16px;
+  background: #1b1229;
+  border-radius: 15px;
+  transition: all .38s ease;
+}
+
+.box h3{
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.box h5 {
+
+  font-size: 15px;
+  font-weight: 600;
+  color: #b7b4bb;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.box:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.margin{
+  margin-top: 60px;
+}
+
+ul li :hover {
+   border-bottom: 3px solid red;
+   color: red;
+}
+
+@media  screen and (max-width: 1024px){
+     .f-img img{
+          width: 150%;
+          height: 79%;
+     }
+
+     .s-f-img img{
+      width: 150%;
+      height: 70%;
+
+
+    }
+    
+    .t-f-img img{
+      width: 100%;
+      height: 100%;
+    }
+
+    .f-f-img img{
+      width: 100%;
+      height: 100%;
+    }
+
+
+
+}
+
+
+@media  screen and (max-width: 1280px){
+  .f-img img{
+      height: 100%;
+    
+  }
+
+  .s-f-img img{
+  
+
+
+ }
+ 
+ .t-f-img img{
+  height: 100%;
+ }
+
+ .f-f-img img{
+  height: 100%;
+ }
+
+
+
+}
+
